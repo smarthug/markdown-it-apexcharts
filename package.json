@@ -1,7 +1,7 @@
 {
-  "name": "markdown-it-mermaid",
-  "version": "0.2.5",
-  "description": "Mermaid plugin for markdown-it.",
+  "name": "markdown-it-apexcharts",
+  "version": "0.1.0",
+  "description": "Apexcharts plugin for markdown-it.",
   "main": "dist/index.js",
   "scripts": {
     "build": "webpack --progress --color",
@@ -10,8 +10,8 @@
     "test": "node -r babel-register test/index.js",
     "upgrade": "yarn-upgrade-all"
   },
-  "repository": "git@github.com:tylingsoft/markdown-it-mermaid.git",
-  "author": "Tyler Long <tyler4long@gmail.com>",
+  "repository": "",
+  "author": "Zzing-gu <kirklayer@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -24,6 +24,6 @@
     "yarn-upgrade-all": "^0.2.0"
   },
   "dependencies": {
-    "mermaid": "^7.1.2"
+    "apexcharts": "^3.6.6"
   }
 }
