@@ -8,6 +8,7 @@
     
     
 ## Usage
+```js
     import markdownIt from 'markdown-it'
     import markdownItApexCharts , {Apexrender} from 'markdown-it-apexcharts'
     
@@ -31,9 +32,11 @@
     
     // important!
     ApexRender();
+```
     
-above codes create div element with class "apexcharts".  To see a Apexcharts , you have to call render method ( ex: chart.render())
-That is why I created ApexRender function to call render method for every div element with class 'apexcharts'
+above codes create div element with class "apexcharts".  \
+To see a Apexcharts , you have to call render method ( ex: chart.render()) \
+That is why I created ApexRender function to call render method for every div element with class 'apexcharts' \
 
 
     
