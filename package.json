@@ -2,7 +2,7 @@
   "name": "markdown-it-apexcharts",
   "version": "0.1.7",
   "description": "Apexcharts plugin for markdown-it.",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "scripts": {
     "build": "webpack --progress --color",
     "build:watch": "yarn build --watch",
