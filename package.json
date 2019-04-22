@@ -10,8 +10,18 @@
     "test": "node -r babel-register test/index.js",
     "upgrade": "yarn-upgrade-all"
   },
-  "repository": "",
+  "repository": "git@github.com:Zzing-gu/markdown-it-apexcharts.git",
   "author": "Zzing-gu <kirklayer@gmail.com>",
+  "keywords": [
+    "markdown-it-plugin",
+    "markdown-it",
+    "markdown",
+    "apexcharts",
+    "charts",
+    "bar",
+    "apex",
+    "apexchart"
+  ],
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.0",
