@@ -5,7 +5,7 @@
 
 ## Demo
 __[DemoApp](https://build-7r980umqa.now.sh/)__  \
-Copy and paste \
+Copy and paste 
 ```js
   ```apex
   {
@@ -22,7 +22,7 @@ Copy and paste \
       }
   }
   ```
-```
+
 
 It should start with  \```apex  + JSON + ```
 
