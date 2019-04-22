@@ -14,6 +14,7 @@
     
     const md = markdownIt();
     md.use(markdownItMermaid);
+    // below code creates <div class='apexcharts' data-options=INPUT_JSON></div>
     md.render(`\`\`\`apex
     {
          "chart": {
@@ -31,12 +32,17 @@
     \`\`\``);
     
     // important!
+    // finds all div with class 'apexcharts' and render them based on JSON from their data-option attribute
+    // if you are using react , call ApexRender() in componentDidMount() or UseEffect()
+    // anyway it has to be called after div element is created
     ApexRender();
 ```
     
-above codes create div element with class "apexcharts".  \
-To see a Apexcharts , you have to call render method ( ex: chart.render()) \
+above code creates div element with class "apexcharts".  \
+To render Apexcharts , you have to call render method ( ex: chart.render()) \
 That is why I created ApexRender function to call render method for every div element with class 'apexcharts' \
+if you are using react , call ApexRender() in componentDidMount() or UseEffect() \
+anyway it has to be called after div element is created
 
 
     
