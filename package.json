@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-apexcharts",
-  "version": "0.1.0",
+  "version": "0.1.7",
   "description": "Apexcharts plugin for markdown-it.",
   "main": "dist/index.js",
   "scripts": {
