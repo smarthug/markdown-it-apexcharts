@@ -1,14 +1,10 @@
 {
   "name": "markdown-it-apexcharts",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Apexcharts plugin for markdown-it.",
   "main": "src/index.js",
   "scripts": {
-    "build": "webpack --progress --color",
-    "build:watch": "yarn build --watch",
-    "release": "yarn build -p",
-    "test": "node -r babel-register test/index.js",
-    "upgrade": "yarn-upgrade-all"
+    
   },
   "repository": "git@github.com:Zzing-gu/markdown-it-apexcharts.git",
   "author": "Zzing-gu <kirklayer@gmail.com>",
@@ -24,14 +20,10 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-preset-env": "^1.6.1",
-    "markdown-it": "^8.4.0",
-    "standard": "^10.0.3",
-    "webpack": "^3.10.0",
-    "webpack-node-externals": "^1.6.0",
-    "yarn-upgrade-all": "^0.2.0"
+   
+    "markdown-it": "^8.4.0"
+   
+  
   },
   "dependencies": {
     "apexcharts": "^3.6.6"
