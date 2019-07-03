@@ -6,7 +6,7 @@
 ## Demo
 __[DemoApp](https://build-7r980umqa.now.sh/)__  \
 __[DemoApp Github](https://github.com/Zzing-gu/markdown-it-apexcharts-demo)__  \
-Copy and paste 
+Copy and paste ( ! remove back slashes infront of backtick (`) )
 ```js
   \`\`\`apex
   {
