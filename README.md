@@ -8,7 +8,7 @@ __[DemoApp](https://build-7r980umqa.now.sh/)__  \
 __[DemoApp Github](https://github.com/Zzing-gu/markdown-it-apexcharts-demo)__  \
 Copy and paste 
 ```js
-  ```apex
+  \`\`\`apex
   {
       "chart": {
         "type": "area"
@@ -22,8 +22,8 @@ Copy and paste
         "categories": ["01/01/1991","01/01/1992","01/01/1993","01/01/1994","01/01/1995","01/01/1996","01/01/1997", "01/01/1998","01/01/1999"]
       }
   }
-  ```
-  <pre>```</pre>
+ \`\`\`
+ 
  ```
   
 
