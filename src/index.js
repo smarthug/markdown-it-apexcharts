@@ -10,7 +10,7 @@ const ApexPlugIn = (md, opts) => {
         const token = tokens[idx]
         const code = `${token.info} \n ${token.content.trim()}`
         const tmp = token.content.trim()
-        console.log(code)
+        //console.log(code)
         if (token.info === 'apex') {
 
 
@@ -19,7 +19,7 @@ const ApexPlugIn = (md, opts) => {
                 var ApexChartsId = 'Apex' + Math.floor(Math.random() * 100) + 1
                 return `<div class="apexChart" data-options=${JSON.stringify(json)}  id=${ApexChartsId}  ></div>`
             } catch (err) {
-                console.log(err)
+                //console.log(err)
                 return `<pre>${err}</pre>`
             }
         }
