@@ -17,7 +17,7 @@ const ApexPlugIn = (md, opts) => {
             try {
                 const json = JSON.parse(tmp);
                 var ApexChartsId = 'Apex' + Math.floor(Math.random() * 100) + 1
-                return `<div class="apexChart" data-options=${JSON.stringify(json)}  id=${ApexChartsId}  ></div>`
+                return `<div ${slf.renderAttrs(token)} type="apexChart" data-options=${JSON.stringify(json)}  id=${ApexChartsId}  ></div>`
             } catch (err) {
                 //console.log(err)
                 return `<pre>${err}</pre>`
@@ -30,7 +30,7 @@ const ApexPlugIn = (md, opts) => {
 
 
 export const ApexRender = () => {
-    var charts = document.querySelectorAll(".apexChart")
+    var charts = document.querySelectorAll("div[type='apexChart]")
     if (charts != null) {
 
         charts.forEach((el, index) => {
